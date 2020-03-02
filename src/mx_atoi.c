@@ -8,8 +8,6 @@ int mx_atoi(char *s) {
                 return -1;
             res = ((10 * res) + (*s) - '0');
             s++;
-            if (res > 2147483647)
-                return -2;
             
     }
     return (int)res;

@@ -38,7 +38,7 @@ static void er_FILE_IS_EMPTY(t_app *app) {
 
 static void er_LINE_IS_NOT_VALID(t_app *app) {
     char *line_num = NULL;
-
+    
     line_num = mx_itoa(app->invalid_line_num);
     mx_print_err("error: line ");
     mx_print_err(line_num);
